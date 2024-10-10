@@ -24,7 +24,6 @@ h6 {
 	height: 250px;
 	width: 250px;
 	margin-top: 86px;
-
 	margin-right: 32px;
 }
 
@@ -69,8 +68,19 @@ h6 {
 }
 
 #play-pause {
+	height:40px;
+	width: 40px;
 	margin-left: 32px;
 	margin-right: 32px;
+}
+#previous-song {
+	height:40px;
+	width: 40px;
+}
+
+#next-song {
+	height:40px;
+	width: 40px;
 }
 
 .next-play-stop {
@@ -94,18 +104,18 @@ h6 {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	top: 86px;
 	left: 86px;
 }
 
 #info-text {
 	display: grid;
 	align-self: flex-end;
-	row-gap: 8px;
+
 }
 
 .son-title-and-artist {
 	margin-left: 16px;
+	margin-bottom: 32px;
 	margin-bottom: 32px;
 }
 
