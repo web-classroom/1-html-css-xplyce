@@ -11,3 +11,166 @@ h5,
 h6 {
 	margin: 0;
 }
+
+
+
+#playlist-info {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 48px;
+}
+
+#img-2098157264 {
+	height: 250px;
+	width: 250px;
+	margin-top: 86px;
+
+	margin-right: 32px;
+}
+
+
+
+#player {
+	position: fixed;
+	bottom: 0%;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	border-top: 1px solid #E5E7EB;
+	width: 100%;
+	height: var(80px);
+}
+
+#listening-song {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	left: 0%;
+	height: 100%;
+}
+
+.listening-song-spacing {
+	align-self: center;
+}
+
+#img-242430582 {
+	margin-right: 16px;
+	height: 100%;
+}
+
+#changing-song {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	align-self: center;
+	display: flex;
+	justify-content: center;
+}
+
+#play-pause {
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+.next-play-stop {
+	align-self: center;
+	height: 40px;
+	width: 40px;
+}
+
+#deezer-info {
+	display: flex;
+	flex-direction: column;
+	left: 0px;
+	margin-right: 16px;
+}
+
+#deezer-logo {
+	height: 30px;
+}
+
+#main-block {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 86px;
+	left: 86px;
+}
+
+#info-text {
+	display: grid;
+	align-self: flex-end;
+	row-gap: 8px;
+}
+
+.son-title-and-artist {
+	margin-left: 16px;
+	margin-bottom: 32px;
+}
+
+#queue {
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	position: fixed;
+	background-color: #F3F4F6;
+	width: var(330px);
+	right: 0px;
+	top: 0px;
+	height: calc(100% - var(80px));
+}
+
+#play-next {
+	position: absolute;
+	top: 32px;
+	left: 32px;
+}
+
+#queue-fill {
+	color: #9CA3AF;
+}
+
+.Title {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 60px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.Subtitle1 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.Body1 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.Subtitle2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.Body2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.Overline {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+}
