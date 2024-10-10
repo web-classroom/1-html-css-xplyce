@@ -32,20 +32,20 @@ h6 {
 
 #player {
 	position: fixed;
-	bottom: 0%;
+	bottom: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items:center;
 	border-top: 1px solid #E5E7EB;
 	width: 100%;
-	height: var(80px);
+	height: 80px;
 }
 
 #listening-song {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	left: 0%;
+	left: 0;
 	height: 100%;
 }
 
@@ -82,7 +82,7 @@ h6 {
 #deezer-info {
 	display: flex;
 	flex-direction: column;
-	left: 0px;
+	left: 0;
 	margin-right: 16px;
 }
 
@@ -115,10 +115,10 @@ h6 {
 	justify-content:center;
 	position: fixed;
 	background-color: #F3F4F6;
-	width: var(330px);
-	right: 0px;
-	top: 0px;
-	height: calc(100% - var(80px));
+	width: 330px;
+	right: 0;
+	top: 0;
+	height: calc(100% - 80px);
 }
 
 #play-next {
