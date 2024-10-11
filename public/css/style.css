@@ -12,135 +12,6 @@ h6 {
 	margin: 0;
 }
 
-
-
-#playlist-info {
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 48px;
-}
-
-#img-2098157264 {
-	height: 250px;
-	width: 250px;
-	margin-top: 86px;
-	margin-right: 32px;
-}
-
-
-
-#player {
-	position: fixed;
-	bottom: 0;
-	display: flex;
-	justify-content: space-between;
-	align-items:center;
-	border-top: 1px solid #E5E7EB;
-	width: 100%;
-	height: 80px;
-}
-
-#listening-song {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	left: 0;
-	height: 100%;
-}
-
-.listening-song-spacing {
-	align-self: center;
-}
-
-#img-242430582 {
-	margin-right: 16px;
-	height: 100%;
-}
-
-#changing-song {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	align-self: center;
-	display: flex;
-	justify-content: center;
-}
-
-#play-pause {
-	height:40px;
-	width: 40px;
-	margin-left: 32px;
-	margin-right: 32px;
-}
-#previous-song {
-	height:40px;
-	width: 40px;
-}
-
-#next-song {
-	height:40px;
-	width: 40px;
-}
-
-.next-play-stop {
-	align-self: center;
-	height: 40px;
-	width: 40px;
-}
-
-#deezer-info {
-	display: flex;
-	flex-direction: column;
-	left: 0;
-	margin-right: 16px;
-}
-
-#deezer-logo {
-	height: 30px;
-}
-
-#main-block {
-	display: flex;
-	flex-direction: column;
-	position: absolute;
-	left: 86px;
-}
-
-#info-text {
-	display: grid;
-	align-self: flex-end;
-
-}
-
-.son-title-and-artist {
-	margin-left: 16px;
-	margin-bottom: 32px;
-	margin-bottom: 32px;
-}
-
-#queue {
-	display: flex;
-	align-items:center;
-	justify-content:center;
-	position: fixed;
-	background-color: #F3F4F6;
-	width: 330px;
-	right: 0;
-	top: 0;
-	height: calc(100% - 80px);
-}
-
-#play-next {
-	position: absolute;
-	top: 32px;
-	left: 32px;
-}
-
-#queue-fill {
-	color: #9CA3AF;
-}
-
 .Title {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: bold;
@@ -183,4 +54,122 @@ h6 {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 18px;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 86px;
+}
+
+#playlist-info {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 48px;
+}
+
+#img-2098157264 {
+	height: 250px;
+	width: 250px;
+	margin-top: 86px;
+	margin-right: 32px;
+}
+
+#info-text {
+	display: grid;
+	align-self: flex-end;
+}
+
+.son-title-and-artist {
+	margin-left: 16px;
+	margin-bottom: 32px;
+}
+
+#player {
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	border-top: 1px solid #E5E7EB;
+	width: 100%;
+	height: 80px;
+}
+
+#listening-song {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	left: 0;
+	height: 100%;
+}
+
+#img-242430582 {
+	margin-right: 16px;
+	height: 100%;
+}
+
+.listening-song-spacing {
+	align-self: center;
+}
+
+#changing-song {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	align-self: center;
+	display: flex;
+	justify-content: center;
+}
+
+#song-before {
+	height:40px;
+	width: 40px;
+}
+
+#play-pause {
+	height:40px;
+	width: 40px;
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+#song-after {
+	height:40px;
+	width: 40px;
+}
+
+#deezer-info {
+	display: flex;
+	flex-direction: column;
+	left: 0;
+	margin-right: 16px;
+}
+
+#img-deezer {
+	height: 30px;
+}
+
+#queue {
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	position: fixed;
+	background-color: #F3F4F6;
+	width: 330px;
+	right: 0;
+	top: 0;
+	height: calc(100% - 80px);
+}
+
+#play-next-text {
+	position: absolute;
+	top: 32px;
+	left: 32px;
+}
+
+#queue-text-color {
+	color: #9CA3AF;
 }
