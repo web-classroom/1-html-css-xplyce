@@ -116,12 +116,12 @@ h6 {
 
 #changing-song {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	align-self: center;
 	display: flex;
 	justify-content: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 #song-before {
@@ -153,15 +153,15 @@ h6 {
 }
 
 #queue {
+	width: 330px;
+	height: calc(100% - 80px);
 	display: flex;
 	align-items:center;
 	justify-content:center;
 	position: fixed;
-	background-color: #F3F4F6;
-	width: 330px;
 	right: 0;
 	top: 0;
-	height: calc(100% - 80px);
+	background-color: #F3F4F6;
 }
 
 #play-next-text {
